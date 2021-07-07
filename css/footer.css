@@ -6,13 +6,18 @@
     background: red;
 }
 .blog_container {
-    float: left;
+    float: right;
     width: 50%;
-    background: blue;
+    background: #fca311;
+    border: 3px solid #003049;
+}
+#blog > h1 {
+    color: black;
 }
 
 .contact_container {
-    float: right;
+    float: left;
     width: 50%;
-    background: pink;
+    background: #00a5cf;
+    border: 3px solid #003049;
 }

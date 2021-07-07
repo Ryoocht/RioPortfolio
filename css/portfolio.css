@@ -16,7 +16,7 @@
     bottom: 95%;
     right: 0;
     left: 0;
-    background: #34a0a4;
+    background: #00a5cf;
     transform: skewY(-15deg);
     z-index: 2;
 }
@@ -82,7 +82,7 @@
     width: 100%;
     padding-top: 10px;
     border-left: 4px solid;
-	border-image: linear-gradient(40deg, #0000FF, #FF0000);
+	border-image: linear-gradient(10deg, #00a5cf, #fca311);
 	border-image-slice: 1;
 }
 

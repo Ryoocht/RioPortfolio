@@ -92,7 +92,7 @@ nav.main_list ul  li a:hover {
     bottom: 95%;
     right: 0;
     left: 0;
-    background-color: #fca311;
+    background-color: #00a5cf;
     transform: skewY(-15deg);
     z-index: 2;
 }
