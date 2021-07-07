@@ -73,6 +73,7 @@
     background: #8e7dbe;
     transform:rotate(5deg);
     opacity: 0.6;
+    border-radius: 10px;
 }
 
 .title, .subtitle, .skill_list {
