@@ -21,7 +21,6 @@ body {
 /* Navigation style */
 .topnav {
     width: 100%;
-    display: flex;
     background: #003049;
     z-index: 100;
     box-sizing: border-box;
@@ -93,7 +92,7 @@ body {
     justify-content: center;
     position: relative;
     overflow: hidden;
-    z-index: 0;
+    z-index: 1;
 }
 
 .header_container::before {
