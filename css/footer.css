@@ -68,3 +68,17 @@ iframe {
     width: 100%;
     margin-top: 10px;
 }
+
+#mouse_stalker {
+    pointer-events: none;
+    position: fixed;
+    top: -8px; /*Align the cursor position with the center of the circle*/
+    left: -8px; /*Align the cursor position with the center of the circle*/
+    width: 20px; /*Diameter of mouse_stalker*/
+    height: 20px; /*Diameter of mouse_stalker*/
+    background: white;
+    border-radius: 50%;
+    transition: transform 0.2s; /*Follow after silghty late*/
+    transition-timing-function: ease-out;
+    z-index: 100;
+}
