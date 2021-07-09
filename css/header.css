@@ -88,6 +88,7 @@ body {
 /* Title styles */
 .header_container {
     min-height: 100vh;
+    min-width: 1180px;
     align-items: center;
     justify-content: center;
     position: relative;
@@ -100,7 +101,7 @@ body {
     display: block;
     position: absolute;
     top: -80%;
-    bottom: 95%;
+    bottom: 83%;
     right: 0;
     left: 0;
     background-color: #00a5cf;
@@ -138,7 +139,7 @@ body {
 
 .name_box {
     position: inherit;
-    top: 0;
+    top: 10%;
     right: 0;
     bottom: 0;
     left: 0;
