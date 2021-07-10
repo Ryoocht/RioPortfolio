@@ -5,7 +5,7 @@
 - [Portfolio Sections] #portfolio
 - How to Use
 
-<a id="portfolio">
+<a id="portfolio"></a>
 ## Portfolio Sections
 - Header (Navigation / header main section)
   - Navigation: Links(ABOUT ME, PORTFOLIO, BLOG, CONTACT)
