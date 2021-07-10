@@ -10,15 +10,21 @@
 - Header (Navigation / header main section)
   - Navigation: Links(ABOUT ME, PORTFOLIO, BLOG, CONTACT)
   - Header Main: Title and links(Git, LinkedIn, Gmail)
+- Main (About me / Portfolio)
+  - About me: Introduction and Skills + Frameworks
+  - Portfolio: Projects + Details
+- Footer (Contact / Blog)
+  - Contact: contact details(Email, Git, LinkedIn, Phone number)
+  - Blog: Link to Medium
 
 <a id="howToUse"></a>
 ## How to Use
 ~~~
 # Clone this repository
-git clone https://github.com/saadpasta/developerFolio.git
+git clone https://github.com/Ryoocht/RioPortfolio.git
 
 # Go into the repository
-cd developerFolio
+cd RioPortfolio
 
 # Setup default environment variables
 
