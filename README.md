@@ -7,5 +7,5 @@
 
 ## Portfolio Sections
 - Header (Navigation / header main section)
--- Navigation: Links(ABOUT ME, PORTFOLIO, BLOG, CONTACT)
--- Header Main: Title and links(Git, LinkedIn, Gmail)
+- - Navigation: Links(ABOUT ME, PORTFOLIO, BLOG, CONTACT)
+- - Header Main: Title and links(Git, LinkedIn, Gmail)
