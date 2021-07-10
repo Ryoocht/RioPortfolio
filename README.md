@@ -3,10 +3,33 @@
 
 ### Table of Contents
 - [Portfolio Sections](#portfolio)
-- How to Use
+- [How to Use](#howToUse)
 
 <a id="portfolio"></a>
 ## Portfolio Sections
 - Header (Navigation / header main section)
   - Navigation: Links(ABOUT ME, PORTFOLIO, BLOG, CONTACT)
   - Header Main: Title and links(Git, LinkedIn, Gmail)
+
+<a id="howToUse"></a>
+## How to Use
+~~~
+# Clone this repository
+git clone https://github.com/saadpasta/developerFolio.git
+
+# Go into the repository
+cd developerFolio
+
+# Setup default environment variables
+
+# For Linux
+cp env.example .env
+# For Windows
+copy env.example .env
+
+# Install dependencies
+npm install
+
+# Start a local dev server
+npm start
+~~~
