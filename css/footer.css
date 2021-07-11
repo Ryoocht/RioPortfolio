@@ -80,5 +80,5 @@ iframe {
     border-radius: 50%;
     transition: transform 0.2s; /*Follow after silghty late*/
     transition-timing-function: ease-out;
-    z-index: 100;
+    z-index: 101;
 }
