@@ -5,34 +5,34 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./fonts/font.css">
+    <link rel="stylesheet" href="./css/navMenu.css">
     <link rel="stylesheet" href="./css/header.css">
     <link rel="stylesheet" href="./css/aboutme.css">
     <link rel="stylesheet" href="./css/portfolio.css">
     <link rel="stylesheet" href="./css/footer.css">
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script type="text/javascript" src="./script/navMenu.js"></script>
     <script type="text/javascript" src="./script/portfolio.js"></script>
     <title>Ryochi Tanaka Portfolio</title>
 </head>
 <body>
-    <div class="topnav positionFixed">
-        <div class="navContainer navigationSize">
-            <a class="headername" href="#aboutme">Ryochi Tanaka</a>
-            <nav role="navigation" class="main_list">
-                <a class="navigationLink" role="button" href="#aboutme" to="/#aboutme">
-                    <span class="buttonLabel">ABOUT ME</span>
-                </a>
-                <a class="navigationLink" role="button" href="#portfolio" to="/#portfolio">
-                    <span class="buttonLabel">PORTFOLIO</span>
-                </a>
-                <a class="navigationLink" role="button" href="#blog" to="/#blog">
-                    <span class="buttonLabel">BLOG</span>
-                </a>
-                <a class="navigationLink" role="button" href="#contact" to="/#contact">
-                    <span class="buttonLabel">CONTACT</span>
-                </a>
-            </nav>
+    <div id="wrapper">
+        <div id="nav-container">
+			<div id="nav-overlay"></div>
+			<nav id="nav-fullscreen">
+				<ul>
+					<li><a href="#aboutme">ABOUTME</a></li>
+					<li><a href="#portfolio">PORTFOLIO</a></li>
+					<li><a href="#blog">BLOG</a></li>
+					<li><a href="#contact">CONTACT</a></li>
+				</ul>
+			</nav>
+			<a id="nav-toggle">
+					<span></span>
+					<span></span>
+					<span></span>
+			</a>
         </div>
-    </div>
     <header class="header_container">
         <div class="title_container">
             <div class="name_box">
@@ -236,5 +236,6 @@
             </div>
         </div>
     </footer>
+    </div>
 </body>
 </html>

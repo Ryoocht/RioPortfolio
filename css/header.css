@@ -13,77 +13,15 @@ body {
     display: block;
     box-sizing: border-box;
     font-family: "Quicksand", sans-serif;
-    background: #003049;
     overflow-wrap: break-word;
     word-wrap: break-word;
 }
 
-/* Navigation style */
-.topnav {
+#wrapper {
     width: 100%;
+    height: 100%;
     background: #003049;
-    z-index: 100;
-    box-sizing: border-box;
-    flex-shrink: 0;
-    flex-direction: column;
-    min-width: 1000px;
 }
-
-.positionFixed {
-    position: fixed;
-    top: 0;
-    left: auto;
-    right: 0;
-}
-
-.navContainer {
-    position: relative;
-    display: flex;
-    align-items: center;
-    padding-left: 20px;
-    padding-right: 20px;
-}
-
-.headername {
-    font-size: 40px;
-    font-weight: 500;
-    line-height: 1.6;
-    text-decoration: none;
-    flex-grow: 1;
-    color: #fff;
-}
-
-.headername:hover {
-    color: #5390d9;
-}
-
-.main_list {
-    align-items: center;
-    justify-content: center;
-}
-
-.navigationLink {
-    position: relative;
-    display: inline-flex;
-    margin-left: 20px;
-    font-size: 1.75rem;
-    min-width: 64px;
-    box-sizing: border-box;
-    font-weight: 500;
-    line-height: 1.6;
-    border-radius: 4px;
-    cursor: pointer;
-    align-items: center;
-    vertical-align: middle;
-    justify-content: center;
-    text-decoration: none;
-    color: white;
-}
-
-.navigationLink:hover {
-    color: #5390d9;
-}
-
 
 /* Title styles */
 .header_container {
